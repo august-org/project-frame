@@ -6,10 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.august.mapper")
-public class CompanyFrameApplication {
+public class ProjectFrameApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CompanyFrameApplication.class, args);
+        SpringApplication.run(ProjectFrameApplication.class, args);
     }
 
 }

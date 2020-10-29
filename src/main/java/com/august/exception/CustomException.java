@@ -21,6 +21,5 @@ public class CustomException extends RuntimeException {
     public CustomException(RestCode error) {
         this.code = error.getCode();
         this.msg = error.getMsg();
-
     }
 }
